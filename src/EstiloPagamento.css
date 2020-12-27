@@ -1,0 +1,82 @@
+.ant-form-item {
+  margin: 5px;
+
+}
+
+.ant-tabs {
+  box-shadow: rgba(197, 205, 216, 0.952) 0px 0px 8px 0px;
+  margin: 50px;
+  width: 70%;
+  align-content: center;
+
+}
+
+#centralizar {
+  margin: 15px;
+  text-align: center;
+  align-content: center;
+}
+
+h2 {
+  color: #0099db;
+}
+
+h3 {
+  color: #0f496a;
+}
+
+input {
+  box-shadow: rgba(197, 205, 216, 0.952) 0px 0px 8px 0px;
+  border-radius: 4px;
+  FONT-FAMILY: 'Roboto-Regular', sans-serif;
+  FONT-SIZE: 14px;
+  LINE-HEIGHT: 10px;
+  TEXT-ALIGN: start;
+  LETTER-SPACING: normal;
+  padding: 10px 2px 10px 2px !important;
+  margin: 15px;
+}
+
+label {
+  FONT-FAMILY: 'Roboto-Regular', sans-serif;
+  FONT-SIZE: 14px;
+  LINE-HEIGHT: 21px;
+  TEXT-ALIGN: start;
+  LETTER-SPACING: normal;
+  color: #0f496a;
+  font-weight: bold;
+}
+
+.ant-btn-primary {
+  background-color: #28a745;
+  border-color: #28a745;
+  font-size: 25px;
+
+  height: 0%;
+  border-radius: 1rem;
+}
+
+.ant-tabs>.ant-tabs-nav .ant-tabs-nav-wrap::before,
+.ant-tabs>div>.ant-tabs-nav .ant-tabs-nav-wrap::before,
+.ant-tabs>.ant-tabs-nav .ant-tabs-nav-wrap::after,
+.ant-tabs>div>.ant-tabs-nav .ant-tabs-nav-wrap::after {
+  position: relative;
+}
+
+#logo {
+  text-align: left;
+  margin-bottom: 0px;
+  margin-top: 20px;
+}
+
+#logo img {
+  width: 30%;
+  margin-left: 35px;
+}
+
+#botom {
+  text-align: right;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  width: 38%;
+}
