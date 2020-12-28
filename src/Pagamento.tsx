@@ -5,9 +5,8 @@ import 'antd/dist/antd.css';
 import InputMask from 'antd-mask-input';
 import './EstiloPagamento.css';
 import { cpf } from 'cpf-cnpj-validator';
+import * as AiIcons from 'react-icons/fa';
 import logo from './models/img/logo.svg';
-
-// import * as AiIcons from 'react-icons/ai';
 
 const { TabPane } = Tabs;
 
@@ -39,13 +38,42 @@ export default function teste() {
               lg={{ span: 12 }}
               id="botom"
             >
-              <Button htmlType="submit">Acesse sua conta</Button>
+              <Button htmlType="submit" id="sair">
+                <strong>
+                  <span id="sair">Sair</span>
+                </strong>
+                <AiIcons.FaPowerOff />
+              </Button>
             </Col>
           </Row>
         </div>
-        <Col span={24} offset={3}>
+        <Col span={24} offset={2}>
+          <div>
+            <Row>
+              <Tabs>
+                <Col span={6}>
+                  <div>
+                    <h2>Descrição da compra</h2>
+                    <h4>
+                      Atualização Cadastral do Estudante
+                      <AiIcons.FaCartArrowDown />
+                    </h4>
+                  </div>
+                </Col>
+                <Col span={6}>
+                  <div>
+                    <h2>Valor da Taxa</h2>
+                    R$ 2,99
+                    <AiIcons.FaMoneyBillAlt />
+                  </div>
+                </Col>
+                <hr />
+              </Tabs>
+            </Row>
+          </div>
+
           <Tabs>
-            <TabPane tab="Cartão de Crédito" key="1">
+            <TabPane tab="Cartão de Crédito" key="2">
               <Form>
                 <Row>
                   <Col>
@@ -183,7 +211,6 @@ export default function teste() {
                       <Input />
                     </Form.Item>
                   </Col>
-
                   <Col>
                     <Form.Item
                       name="numerocasa"
@@ -223,13 +250,14 @@ export default function teste() {
                   <h2>Valor Total R$ 4,98</h2>
                   <div>
                     <Button type="primary" id="centralizar">
-                      Efetuar Pagamento
+                      Pagar
                     </Button>
                   </div>
                 </div>
               </Form>
             </TabPane>
-            <TabPane tab="Boleto" key="2">
+
+            <TabPane tab="Boleto" key="3">
               <Row>
                 <Col>
                   <Form.Item

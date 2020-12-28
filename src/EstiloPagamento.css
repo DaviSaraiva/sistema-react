@@ -1,7 +1,10 @@
 .ant-form-item {
   margin: 5px;
+  box-shadow: transparent;
 
 }
+
+
 
 .ant-tabs {
   box-shadow: rgba(197, 205, 216, 0.952) 0px 0px 8px 0px;
@@ -15,6 +18,12 @@
   margin: 15px;
   text-align: center;
   align-content: center;
+}
+
+#sair {
+  background-color: rgb(236, 13, 13);
+  margin: 10px;
+  font-size: 15px;
 }
 
 h2 {
@@ -79,4 +88,9 @@ label {
   margin-bottom: 10px;
   margin-top: 20px;
   width: 38%;
+
+}
+
+#titulo {
+  text-align: center;
 }
